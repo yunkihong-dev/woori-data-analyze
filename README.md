@@ -126,7 +126,8 @@ ruby {
 <summary>🖼️ 필터링 전/후 비교 </summary>
 
 - **필터링 적용 전**  
-  <img width="600" height="550" alt="filtering-before" src="https://github.com/user-attachments/assets/d2eedc06-c888-4546-b726-15d8ed392e76" />
+ <img width="605" height="562" alt="image" src="https://github.com/user-attachments/assets/614104e1-95c4-41b3-884c-13f1460ea1e6" />
+
 
 ---
 
