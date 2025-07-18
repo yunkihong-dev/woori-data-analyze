@@ -48,3 +48,85 @@ Elastic Stack(ELK)의 구조와 활용을 실습하는 것을 1차 목표로 하
 
 - 결과목표: 은행 디지털 전략에 대한 인사이트 도출 및 카드 추천 방향 제시
 
+
+## 🪐 Filebeat + Logstash + ElasticSearch 데이터 파이프라인
+
+---
+
+## 1️⃣ Filebeat 역할
+
+- **CSV 파일 변경 감지 → Logstash 전송**
+- 경로: `C:\ce5\dataset\carddata.csv`
+- 포트: `localhost:5044`
+
+```yaml
+# filebeat.yml
+
+filebeat.inputs:
+  - type: log
+    enabled: true
+    paths:
+      - C:\ce5\dataset\carddata.csv
+
+...
+
+output.logstash:
+  hosts: ["localhost:5044"]
+```
+
+---
+
+## 2️⃣ Logstash 역할
+
+- CSV 데이터를 `,` 기준으로 컬럼별 분리
+- message에서 필요한 데이터만 수집
+- `YYYYMM` → `MM` 부분만 추출하여 날짜 필드에 덮어씀
+- 연령, 거래금액 등을 `integer`로 변환
+- Elasticsearch로 전송해 Kibana 시각화 가능
+
+```ruby
+# carddata.conf
+mutate {
+  split => ["message", ","]
+  add_field => {
+    "■■■" => "%{[message][2]}"
+    "■■■" => "%{[message][3]}"
+    ...
+  }
+}
+
+# 형변환
+  mutate {
+    convert => {
+      "■■■"     => "integer"
+      "■■■"     => "integer"
+    }
+    remove_field => ["@timestamp"]
+  }
+  
+# 월 추출 예시
+ruby {
+  code => "
+     if event.get('■■■■')
+        ytm = event.get('■■■■').to_s
+        if ytm.length == 6
+          mm = ytm[4,2]
+          event.set('■■■■', mm)
+        end
+      end
+  "
+}
+
+```
+
+- 필터링 적용 전
+    
+    ![image.png](attachment:c62a4f2c-8cf7-4642-923f-0d80d0a56abf:image.png)
+    
+- 필터링 적용 후
+    
+    ![image.png](attachment:48db0840-cd64-4e63-b8f1-e538ab9c0b1b:image.png)
+    
+
+
+
