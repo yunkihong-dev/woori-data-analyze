@@ -49,7 +49,7 @@ Elastic Stack(ELK)의 구조와 활용을 실습하는 것을 1차 목표로 하
 - 결과목표: 은행 디지털 전략에 대한 인사이트 도출 및 카드 추천 방향 제시
 
 
-## 🪐 Filebeat + Logstash + ElasticSearch 데이터 파이프라인
+## 🪐 Filebeat + Logstash + ElasticSearch + Kibana데이터 파이프라인
 
 ---
 
@@ -132,5 +132,22 @@ ruby {
 
 </details>
 
+---
 
+## 3️⃣ ElasticSearch 역할
+
+- Logstash에서 전송된 **필터링한** JSON 데이터를 인덱싱
+- 인덱스 이름: `carddata`
+- 다양한 필드를 기준으로 Kibana에서 분석 가능
+- 연령별, 성별, 월별 소비 패턴 등 대시보드 시각화 지원
+- 색인 구조 자동 생성 또는 매핑 템플릿 지정 가능
+
+---
+
+## 4️⃣ Kibana 역할
+
+- **Elasticsearch에 저장된 데이터 시각화 및 분석**
+- 인덱스 패턴: `carddata`
+- Discover 탭에서 데이터 탐색 가능
+- Lens 및 Visualize 탭을 통해 다음과 같은 분석 가능
 
