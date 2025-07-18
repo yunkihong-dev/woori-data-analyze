@@ -235,9 +235,10 @@ ruby {
 
 ### 3-2. 연령대별 소비 성향
 
-![image.png](attachment:3ef65876-7b60-4e02-989d-5cf4c7c0b1e3:945dba95-4c37-45bc-8c3c-b13739edb0ef.png)
 
-![image.png](attachment:14b13736-a89b-4795-9cd6-cf9f7e921e00:cf0a3f5c-2ddc-4eba-9f6c-ab83235e3b06.png)
+<img width="937" height="381" alt="image (3)" src="https://github.com/user-attachments/assets/31b98d81-12ea-4eee-ad7b-3dfc0c9e163c" />
+<img width="935" height="380" alt="dsd" src="https://github.com/user-attachments/assets/711efffd-89c8-4414-afd7-bf365bbd3140" />
+
 
 - **20대**는 여행·외식·자기계발 중심의 경험소비 성향이 강함.
 - **30~40대**는 의료·주거·교육 중심의 가족소비 중심 구조로 이동.
