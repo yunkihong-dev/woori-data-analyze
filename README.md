@@ -52,7 +52,7 @@ Elastic Stack(ELK)의 구조와 활용을 실습하는 것을 1차 목표로 하
 
 ## 🪐 Filebeat + Logstash + ElasticSearch + Kibana데이터 파이프라인
 
-<img width="800" height="300" alt="image (2)" src="https://github.com/user-attachments/assets/d76264ce-73ae-4f35-a314-99febee2fc7a" />
+<img width="1172" height="373" alt="image" src="https://github.com/user-attachments/assets/f16d7d87-38b6-402f-8228-8ee3f9187056" />
 
 
 ---
