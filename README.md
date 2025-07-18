@@ -218,11 +218,11 @@ ruby {
 
 ### 3-1. 성별 소비 트렌드
 
-![스크린샷 2025-07-17 174642.png](attachment:d2132b32-5bb0-4c26-a1e3-ca4fa690ddf2:스크린샷_2025-07-17_174642.png)
 
-![스크린샷 2025-07-17 174829.png](attachment:5178ab2a-38e8-42f0-a809-bcd5df08bf3e:스크린샷_2025-07-17_174829.png)
+<img width="1026" height="520" alt="스크린샷 2025-07-17 174642" src="https://github.com/user-attachments/assets/f2ce47b1-a3fa-4b91-beb6-cb67953010e5" />
+<img width="1023" height="513" alt="스크린샷 2025-07-17 174829" src="https://github.com/user-attachments/assets/aa30d5d2-b3ac-4b4f-b973-c5181ab676e6" />
+<img width="1021" height="512" alt="스크린샷 2025-07-17 174934" src="https://github.com/user-attachments/assets/f6542f1c-51d4-474c-a9b2-67c74aa80abe" />
 
-![유통 제외](attachment:fc75c918-6fd6-44aa-8380-5877563c8555:스크린샷_2025-07-17_174934.png)
 
 유통 제외
 
