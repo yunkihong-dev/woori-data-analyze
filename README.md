@@ -52,7 +52,7 @@ Elastic Stack(ELK)의 구조와 활용을 실습하는 것을 1차 목표로 하
 
 ## 🪐 Filebeat + Logstash + ElasticSearch + Kibana데이터 파이프라인
 
-<img width="1172" height="373" alt="image" src="https://github.com/user-attachments/assets/f16d7d87-38b6-402f-8228-8ee3f9187056" />
+<img width="800" height="300" alt="image" src="https://github.com/user-attachments/assets/f16d7d87-38b6-402f-8228-8ee3f9187056" />
 
 
 ---
@@ -205,6 +205,7 @@ ruby {
 - **혜택 카드 단종 추세**: 할인·적립 혜택 중심 상품 다수 단종. 실속형 고객 이탈 가능성 존재.
 
 ### 2-2. 실적 변화 및 시사점
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/6226dd34-ce6a-4483-8d74-7543ed16fe35" />
 
 | 구분 | 회원 수 추이 | 순이익 추이 | 시사점 |
 | --- | --- | --- | --- |
@@ -222,9 +223,9 @@ ruby {
 ### 3-1. 성별 소비 트렌드
 
 
-<img width="1026" height="520" alt="스크린샷 2025-07-17 174642" src="https://github.com/user-attachments/assets/f2ce47b1-a3fa-4b91-beb6-cb67953010e5" />
-<img width="1023" height="513" alt="스크린샷 2025-07-17 174829" src="https://github.com/user-attachments/assets/aa30d5d2-b3ac-4b4f-b973-c5181ab676e6" />
-<img width="1021" height="512" alt="스크린샷 2025-07-17 174934" src="https://github.com/user-attachments/assets/f6542f1c-51d4-474c-a9b2-67c74aa80abe" />
+<img width="700" height="520" alt="스크린샷 2025-07-17 174642" src="https://github.com/user-attachments/assets/f2ce47b1-a3fa-4b91-beb6-cb67953010e5" />
+<img width="700" height="513" alt="스크린샷 2025-07-17 174829" src="https://github.com/user-attachments/assets/aa30d5d2-b3ac-4b4f-b973-c5181ab676e6" />
+<img width="700" height="512" alt="스크린샷 2025-07-17 174934" src="https://github.com/user-attachments/assets/f6542f1c-51d4-474c-a9b2-67c74aa80abe" />
 
 
 유통 제외
@@ -239,8 +240,8 @@ ruby {
 ### 3-2. 연령대별 소비 성향
 
 
-<img width="937" height="381" alt="image (3)" src="https://github.com/user-attachments/assets/31b98d81-12ea-4eee-ad7b-3dfc0c9e163c" />
-<img width="935" height="380" alt="dsd" src="https://github.com/user-attachments/assets/711efffd-89c8-4414-afd7-bf365bbd3140" />
+<img width="700" height="381" alt="image (3)" src="https://github.com/user-attachments/assets/31b98d81-12ea-4eee-ad7b-3dfc0c9e163c" />
+<img width="700" height="380" alt="dsd" src="https://github.com/user-attachments/assets/711efffd-89c8-4414-afd7-bf365bbd3140" />
 
 
 - **20대**는 여행·외식·자기계발 중심의 경험소비 성향이 강함.
@@ -261,9 +262,9 @@ ruby {
 ### 3-3. 성별 × 연령대 소비 교차분석
 
 ### **여성 소비 트렌드**
-<img width="1023" height="509" alt="스크린샷 2025-07-17 180210" src="https://github.com/user-attachments/assets/7a3ea479-481b-4fff-b785-c7c612057605" />  
+<img width="700" height="509" alt="스크린샷 2025-07-17 180210" src="https://github.com/user-attachments/assets/7a3ea479-481b-4fff-b785-c7c612057605" />  
 
-<img width="1015" height="510" alt="스크린샷 2025-07-17 180541" src="https://github.com/user-attachments/assets/8b40bc31-27c7-472c-86d7-29dab20d7cab" />
+<img width="700" height="510" alt="스크린샷 2025-07-17 180541" src="https://github.com/user-attachments/assets/8b40bc31-27c7-472c-86d7-29dab20d7cab" />
 
 | 연령대 | 주요 소비 업종 (Top 3) | 소비 성향 요약 |
 | --- | --- | --- |
@@ -275,9 +276,9 @@ ruby {
 | 60대 이상 | 의료, 보건, 외식 | **건강·기초생활 위주**, 일부 외식 소비 유지 |
 
 ### **남성 소비 트렌드**
-<img width="1015" height="512" alt="스크린샷 2025-07-17 175954" src="https://github.com/user-attachments/assets/a9a09352-7ccc-4530-bdb1-dfc0fb78cdbb" />  
+<img width="700" height="512" alt="스크린샷 2025-07-17 175954" src="https://github.com/user-attachments/assets/a9a09352-7ccc-4530-bdb1-dfc0fb78cdbb" />  
 
-<img width="1019" height="513" alt="스크린샷 2025-07-17 180630" src="https://github.com/user-attachments/assets/9c316d7d-75b7-4eae-acb7-c5e4e2fa3cad" />
+<img width="700" height="513" alt="스크린샷 2025-07-17 180630" src="https://github.com/user-attachments/assets/9c316d7d-75b7-4eae-acb7-c5e4e2fa3cad" />
 
 
 | 연령대 | 주요 소비 업종 (Top 3) |  |
@@ -313,9 +314,9 @@ ruby {
     
 
 ### 3-4. 라이프스테이지별 소비 구조 변화
-<img width="1031" height="524" alt="스크린샷 2025-07-17 161038" src="https://github.com/user-attachments/assets/c1255317-2a57-4cd0-a8df-e8c1bc20244c" />  
+<img width="700" height="524" alt="스크린샷 2025-07-17 161038" src="https://github.com/user-attachments/assets/c1255317-2a57-4cd0-a8df-e8c1bc20244c" />  
 
-<img width="1018" height="512" alt="스크린샷 2025-07-17 161250" src="https://github.com/user-attachments/assets/a3ab077d-ea3e-4411-808e-6b0d309c38cf" />
+<img width="700" height="512" alt="스크린샷 2025-07-17 161250" src="https://github.com/user-attachments/assets/a3ab077d-ea3e-4411-808e-6b0d309c38cf" />
 
 
 | 라이프스테이지 | 주요 소비 업종 | 소비 금액 수준 | 소비 특징 요약 |
@@ -334,9 +335,9 @@ ruby {
 → 소비자는 라이프사이클 변화에 따라 카드 소비 목적이 명확히 변화하므로, 생애주기별 전용 카드 기획 가능.
 
 ### 3-5. 자녀 성장 단계에 따른 소비 패턴  
-<img width="948" height="527" alt="스크린샷 2025-07-17 161319" src="https://github.com/user-attachments/assets/a0ec6e0d-c94b-43c7-a3c6-d0409ccf2b8a" />  
+<img width="700" height="527" alt="스크린샷 2025-07-17 161319" src="https://github.com/user-attachments/assets/a0ec6e0d-c94b-43c7-a3c6-d0409ccf2b8a" />  
 
-<img width="951" height="523" alt="스크린샷 2025-07-17 161329" src="https://github.com/user-attachments/assets/231be9aa-ec0e-4ce6-bc13-d9277f6efd36" />
+<img width="700" height="523" alt="스크린샷 2025-07-17 161329" src="https://github.com/user-attachments/assets/231be9aa-ec0e-4ce6-bc13-d9277f6efd36" />
 
 ### 자녀 단계별 소비 요약표
 
@@ -357,7 +358,7 @@ ruby {
 
 ### 3-6. 카드 유형(체크/신용) 선호도
 
-<img width="1015" height="505" alt="3-6" src="https://github.com/user-attachments/assets/17ae10e3-593a-476d-88c1-4e728ce75b5c" />
+<img width="700" height="505" alt="3-6" src="https://github.com/user-attachments/assets/17ae10e3-593a-476d-88c1-4e728ce75b5c" />
 
 - **20대**는 체크카드 선호 경향 → 소액결제 위주의 소비 구조.
 - **30~40대**는 신용카드 비중 증가 → 가족 지출 및 고정비용 결제 수요 증가.
@@ -384,7 +385,7 @@ ruby {
 
 ### 3-8. 디지털 채널 이용 현황
 
-<img width="1004" height="498" alt="3-8" src="https://github.com/user-attachments/assets/a8c63bdf-4247-41cc-8e4e-3a0a53c33d47" />
+<img width="700" height="498" alt="3-8" src="https://github.com/user-attachments/assets/a8c63bdf-4247-41cc-8e4e-3a0a53c33d47" />
 
 - **20~40대**는 디지털 채널(앱/웹) 사용률 매우 높음 → 앱 기반 맞춤형 마케팅 전략 적합.
 
@@ -395,16 +396,12 @@ ruby {
 
 **은행 디지털 전환 전략**
 
-| 연령대 | 디지털 채널 사용 경향 | 주요 전략 방향 |
-| --- | --- | --- |
-| **20~40대** | **높은 디지털 채널 이용률** | - **모바일 앱 중심 금융 서비스** 강화  
-- 간편결제, 구독, 투자 연계 서비스  - 마이데이터 기반 맞춤 금융 제공 |
-| **50대** | **이용과 비이용이 공존** | - **하이브리드 UX** 제공 (앱 + 상담사)   
-- 디지털 튜토리얼/가이드 제공  
-- 챗봇 + 상담 연결 기능 강화 |
-| **60대 이상** | **비이용자 다수** | - **디지털 접근성 강화 UI/UX 제공** (큰 글씨, 단순 구조) 
-- ATM·지점 기반 서비스 연동 강화  
-- 디지털 도우미(케어매니저) 운영 |
+| 연령대       | 디지털 채널 사용 경향         | 주요 전략 방향 |
+|--------------|-------------------------------|----------------|
+| **20~40대**  | **높은 디지털 채널 이용률**  | - **모바일 앱 중심 금융 서비스** 강화<br>- 간편결제, 구독, 투자 연계 서비스<br>- 마이데이터 기반 맞춤 금융 제공 |
+| **50대**     | **이용과 비이용이 공존**      | - **하이브리드 UX 제공 (앱 + 상담사)**<br>- 디지털 튜토리얼/가이드 제공<br>- 챗봇 + 상담 연결 기능 강화 |
+| **60대 이상**| **비이용자 다수**             | - **디지털 접근성 강화 UI/UX 제공 (큰 글씨, 단순 구조)**<br>- ATM·지점 기반 서비스 연동 강화<br>- 디지털 도우미(케어매니저) 운영 |
+
 
 ## 4. 전략적 인사이트 요약
 
