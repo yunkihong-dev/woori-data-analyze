@@ -258,10 +258,9 @@ ruby {
 ### 3-3. 성별 × 연령대 소비 교차분석
 
 ### **여성 소비 트렌드**
+<img width="1023" height="509" alt="스크린샷 2025-07-17 180210" src="https://github.com/user-attachments/assets/7a3ea479-481b-4fff-b785-c7c612057605" />  
 
-![스크린샷 2025-07-17 180210.png](attachment:78b155f9-6a7b-4303-b8b2-bc9f80c9e1c7:스크린샷_2025-07-17_180210.png)
-
-![스크린샷 2025-07-17 180541.png](attachment:404a5e70-ce40-40cd-8b5a-87de19208ec9:스크린샷_2025-07-17_180541.png)
+<img width="1015" height="510" alt="스크린샷 2025-07-17 180541" src="https://github.com/user-attachments/assets/8b40bc31-27c7-472c-86d7-29dab20d7cab" />
 
 | 연령대 | 주요 소비 업종 (Top 3) | 소비 성향 요약 |
 | --- | --- | --- |
@@ -273,10 +272,10 @@ ruby {
 | 60대 이상 | 의료, 보건, 외식 | **건강·기초생활 위주**, 일부 외식 소비 유지 |
 
 ### **남성 소비 트렌드**
+<img width="1015" height="512" alt="스크린샷 2025-07-17 175954" src="https://github.com/user-attachments/assets/a9a09352-7ccc-4530-bdb1-dfc0fb78cdbb" />  
 
-![스크린샷 2025-07-17 175954.png](attachment:4e357050-30ec-480c-bd9a-6135eab990c2:스크린샷_2025-07-17_175954.png)
+<img width="1019" height="513" alt="스크린샷 2025-07-17 180630" src="https://github.com/user-attachments/assets/9c316d7d-75b7-4eae-acb7-c5e4e2fa3cad" />
 
-![스크린샷 2025-07-17 180630.png](attachment:bd67e45a-41a9-404f-94bc-fff3d8376900:스크린샷_2025-07-17_180630.png)
 
 | 연령대 | 주요 소비 업종 (Top 3) |  |
 | --- | --- | --- |
@@ -311,10 +310,10 @@ ruby {
     
 
 ### 3-4. 라이프스테이지별 소비 구조 변화
+<img width="1031" height="524" alt="스크린샷 2025-07-17 161038" src="https://github.com/user-attachments/assets/c1255317-2a57-4cd0-a8df-e8c1bc20244c" />  
 
-![스크린샷 2025-07-17 161038.png](attachment:e10356f5-ccb2-4340-a37f-385954751102:f1bedf9f-0c81-49ca-8462-402b6b13a5e6.png)
+<img width="1018" height="512" alt="스크린샷 2025-07-17 161250" src="https://github.com/user-attachments/assets/a3ab077d-ea3e-4411-808e-6b0d309c38cf" />
 
-![스크린샷 2025-07-17 161250.png](attachment:e509380a-3697-4e04-87a2-8b3464eb879f:스크린샷_2025-07-17_161250.png)
 
 | 라이프스테이지 | 주요 소비 업종 | 소비 금액 수준 | 소비 특징 요약 |
 | --- | --- | --- | --- |
@@ -331,11 +330,10 @@ ruby {
 
 → 소비자는 라이프사이클 변화에 따라 카드 소비 목적이 명확히 변화하므로, 생애주기별 전용 카드 기획 가능.
 
-### 3-5. 자녀 성장 단계에 따른 소비 패턴
+### 3-5. 자녀 성장 단계에 따른 소비 패턴  
+<img width="948" height="527" alt="스크린샷 2025-07-17 161319" src="https://github.com/user-attachments/assets/a0ec6e0d-c94b-43c7-a3c6-d0409ccf2b8a" />  
 
-![스크린샷 2025-07-17 161319.png](attachment:44d99907-9ba7-4dec-b558-1b5a12901f5c:스크린샷_2025-07-17_161319.png)
-
-![스크린샷 2025-07-17 161329.png](attachment:a45836df-37dc-4fb8-8bfb-f6f2a630b4bd:스크린샷_2025-07-17_161329.png)
+<img width="951" height="523" alt="스크린샷 2025-07-17 161329" src="https://github.com/user-attachments/assets/231be9aa-ec0e-4ce6-bc13-d9277f6efd36" />
 
 ### 자녀 단계별 소비 요약표
 
