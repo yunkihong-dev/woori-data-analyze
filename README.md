@@ -119,14 +119,18 @@ ruby {
 
 ```
 
-- 필터링 적용 전
-    
-    <img width="600" height="550" alt="image" src="https://github.com/user-attachments/assets/d2eedc06-c888-4546-b726-15d8ed392e76" />
+<details>
+<summary>🖼️ 필터링 전/후 비교 </summary>
 
-- 필터링 적용 후
-    
-    <img width="600" height="550" alt="image" src="https://github.com/user-attachments/assets/9b7cb199-5b57-435d-b06f-cf62fd6366a0" />
+- **필터링 적용 전**  
+  <img width="600" height="550" alt="filtering-before" src="https://github.com/user-attachments/assets/d2eedc06-c888-4546-b726-15d8ed392e76" />
 
+---
+
+- **필터링 적용 후**  
+  <img width="600" height="550" alt="filtering-after" src="https://github.com/user-attachments/assets/9b7cb199-5b57-435d-b06f-cf62fd6366a0" />
+
+</details>
 
 
 
