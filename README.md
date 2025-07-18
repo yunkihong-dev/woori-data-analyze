@@ -1,5 +1,5 @@
 # 📦 ELK Stack 기반 카드 소비 분석 프로젝트
-> ElasticSearch, Logstash, Kibana, Filebeat 실습을 중심으로 한 데이터 분석 및 디지털 금융 컨설팅 프로젝트
+> ElasticSearch, Logstash, Kibana, Filebeat 실습을 중심으로 한 데이터 분석 및 디지털 금융 컨설팅 프로젝트 <br/>
 [![Notion](https://img.shields.io/badge/-Notion-black?logo=notion&logoColor=white)](https://marmalade-heliotrope-42e.notion.site/FISA_ELK-233345bedb7980d1a115f08b7726c538?source=copy_link)
 
 ## 👥팀원
